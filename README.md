@@ -1,27 +1,109 @@
-# MaltFizzbyAngular16
+# Malt Fizzby World Theme Parks Accessibility - Angular - Frontend 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+This is the front-end component for the Malt Fizzby World Theme Parks Accessibility App, a full-stack web application designed to provide detailed information related to Malt Fizzby World parks, attractions, and accessibility features. It aims to assist visitors with disabilities or special needs in accessing detailed park and attraction information, including general accessibility details, interactive maps, and attraction descriptions. Future updates aim to enhance the park experience by offering personalized accessibility guides and resources. 
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Disclaimer:
 
-## Code scaffolding
+Use of Disney Trademarks and Copyrighted Material
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This project utilizes original content and design for the frontend application. The purpose is to demonstrate accessibility features and functionalities within a theme park context.
 
-## Build
+A (private) mockup design variation exists that incorporates trademarks and copyrighted material owned by The Walt Disney Company. This mockup design is not an officially endorsed or affiliated product and is for illustrative purposes only.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+I acknowledge and respect the intellectual property rights of The Walt Disney Company. 
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<img src="src/assets/images/MaltFizzbyWorld-Preview.png" alt="Malt Fizzby World Theme Parks Accessibility App">
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Features (Current and Planned)
+
+### Current Features
+
+* Park Information: Users can view a list of all parks and get details of a specific park.
+* Interactive Park Maps: Users can view an interactive map for each park to visualize its layout.
+* Attraction Information: Users can view attractions in a specific park and get details of a specific attraction.
+* Accessibility Information: Users can view general accessibility information for each park and detailed accessibility details for attractions.
+
+
+### Planned Features
+
+- **User Authentication**: Implement user registration and login for users to access full CRUD capabilities for managing their park plans.
+- **CRUD Operations for Park Plans**: Allow users to create, view, update, and delete park plans or routes within their profile.
+- **Route Optimization**: Implement a feature to calculate and create routes with the shortest distance between attractions in a park plan.
+- **Break Areas Suggestion**: Include suggestions for break areas along the route to accommodate users with mobility issues who may need rest stops.
+
+
+
+## Technologies Used 
+
+* Angular 16.2.0 (Frontend library for building user interface)
+* HTML
+* CSS
+* VS Code 
+
+
+
+## Getting Started
+
+### Prerequisites 
+
+* Node.js and npm installed on your system. 
+* Git (optional but recommended for version control)
+
+
+### Installation 
+
+1. Follow the instructions at the link below to clone and set up the backend: 
+   * [Backend Repo](https://www.github.com/AyalaVirtual/ThemeParksAccessibilityAPI)
+
+2. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/AyalaVirtual/Malt-Fizzby-World-Theme-Parks-Accessibility-Angular-Frontend.git 
+
+3. Navigate to the project directory: 
+
+    ```bash
+    cd malt-fizzby-world-theme-parks-accessibility-angular-frontend
+    ```
+
+4. Install dependencies: 
+
+    ```bash
+    npm install 
+    ```
+
+    This will install all the required dependencies for the project. 
+
+5. Run the development server:
+
+    ```bash
+    ng serve 
+    ```
+
+    This will start the Angular development server. Open your web browser and navigate to `http://localhost:4200` to access the application. 
+
+
+
+
+## Links
+* User Stories - https://docs.google.com/document/d/1mLiORi0NO0TcaMykAujzYsgFoyzLBELlFtPALw_Yj3c/edit?usp=sharing 
+
+* HTTP requests/endpoints spreadsheet - https://docs.google.com/spreadsheets/d/1xIWKhaml3FHhzpcYROyoGMMztVnEql5rJnGOybD2k2M/edit?usp=sharing 
+
+
+## Authors
+
+:woman_technologist: Erica Ayala
+
+* [LinkedIn](https://www.linkedin.com/in/ayalavirtual)
+
+* [GitHub](https://www.github.com/AyalaVirtual)
+
+
+
+
