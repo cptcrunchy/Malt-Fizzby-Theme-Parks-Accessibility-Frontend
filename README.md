@@ -1,4 +1,4 @@
-# Malt Fizzby World Theme Parks Accessibility - Angular - Frontend 
+# Malt Fizzby Theme Parks Accessibility - Frontend 
 
 This is the front-end component for the Malt Fizzby World Theme Parks Accessibility App, a full-stack web application designed to provide detailed information related to Malt Fizzby World parks, attractions, and accessibility features. It aims to assist visitors with disabilities or special needs in accessing detailed park and attraction information, including general accessibility details, interactive maps, and attraction descriptions. Future updates aim to enhance the park experience by offering personalized accessibility guides and resources. 
 
@@ -63,12 +63,12 @@ I acknowledge and respect the intellectual property rights of The Walt Disney Co
 
 2. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/AyalaVirtual/Malt-Fizzby-World-Theme-Parks-Accessibility-Angular-Frontend.git 
+   git clone https://github.com/AyalaVirtual/Malt-Fizzby-Theme-Parks-Accessibility-Frontend.git 
 
 3. Navigate to the project directory: 
 
     ```bash
-    cd malt-fizzby-world-theme-parks-accessibility-angular-frontend
+    cd malt-fizzby-theme-parks-accessibility-frontend
     ```
 
 4. Install dependencies: 
