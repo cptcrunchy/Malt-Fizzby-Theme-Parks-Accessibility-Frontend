@@ -1,0 +1,14 @@
+.container {
+    padding-top: 70px;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.parks-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
