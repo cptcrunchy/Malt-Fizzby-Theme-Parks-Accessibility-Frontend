@@ -1,14 +1,5 @@
 import { Component, Input } from '@angular/core';
-
-
-export type Park = {
-  id: number;
-  name: String;
-  imageUrl: String;
-  description: String;
-  latitude: number;
-  longitude: number;
-}
+import type { Park } from 'app/types';
 
 
 @Component({

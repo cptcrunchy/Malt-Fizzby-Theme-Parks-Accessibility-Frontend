@@ -5,6 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './park-accessibility.component.html',
   styleUrls: ['./park-accessibility.component.css']
 })
-export class ParkAccessibilityComponent {
+export class ParkAccessibilityPage {
 
 }

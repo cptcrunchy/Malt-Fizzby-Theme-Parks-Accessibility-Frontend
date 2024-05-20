@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
-import { ParksRoutingModule } from './parks/parks-routing-module';
+// import { ParksRoutingModule } from '@pages/parks/parks-routing-module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { ParksComponent } from './parks/parks.component';
-import { ParkPreviewComponent } from './park-preview/park-preview.component';
-import { ParkAccessibilityComponent } from './park-accessibility/park-accessibility.component';
-import { AttractionsComponent } from './attractions/attractions.component';
-import { AttractionAccessibilityComponent } from './attraction-accessibility/attraction-accessibility.component';
+import { NavbarComponent } from '@components/navbar/navbar.component';
+import { ParksPage } from '@pages/parks/parks.component';
+import { ParkPreviewComponent } from '@components/park-preview/park-preview.component';
+import { ParkAccessibilityPage } from '@pages/park-accessibility/park-accessibility.component';
+import { AttractionsPage } from '@pages/attractions/attractions.component';
+import { AttractionAccessibilityPage } from '@pages/attraction-accessibility/attraction-accessibility.component';
 import { HttpClientModule } from '@angular/common/http';
 
 
@@ -16,17 +16,17 @@ import { HttpClientModule } from '@angular/common/http';
   declarations: [
     AppComponent,
     NavbarComponent,
-    ParksComponent,
+    ParksPage,
     ParkPreviewComponent,
-    ParkAccessibilityComponent,
-    AttractionsComponent,
-    AttractionAccessibilityComponent,
+    ParkAccessibilityPage,
+    AttractionsPage,
+    AttractionAccessibilityPage,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    ParksRoutingModule,
+    // ParksRoutingModule,
     // AttractionsRoutingModule,
   ],
   providers: [],
