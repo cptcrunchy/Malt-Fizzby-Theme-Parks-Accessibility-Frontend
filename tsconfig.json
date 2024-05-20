@@ -20,7 +20,6 @@
       "@pages/*": ["app/pages/*"],
       "@components/*": ["app/components/*"],
       "@services/*": ["/app/services/*"],
-      "@assets/*": ["/assets/*"]
     },
     "target": "ES2022",
     "module": "ES2022",
