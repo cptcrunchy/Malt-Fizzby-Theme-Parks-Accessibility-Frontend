@@ -6,11 +6,17 @@ import { ParkAccessibilityPage } from '@pages/park-accessibility/park-accessibil
 import { AttractionAccessibilityPage } from '@pages/attraction-accessibility/attraction-accessibility.component';
 
 export const routes: Routes = [
-    { path: '', redirectTo: '/parks', pathMatch: 'full' },
+    { path: '', redirectTo: 'parks', pathMatch: 'full' },
     { path: 'parks', component: ParksPage },
+    { path: 'parks/:parkId/attractions', component: AttractionsPage },
     { path: 'park-accessibility', component: ParkAccessibilityPage },
+    { path: 'parks/:parkId/park-accessibility/:parkaccessibilityId', component: ParkAccessibilityPage },
     { path: 'attractions', component: AttractionsPage },
     { path: 'attraction-accessibility', component: AttractionAccessibilityPage },
+    {
+      path: 'parks/:parkId/attractions/:attractionId/attraction-accessibility/:attractionAccessibilityId',
+      component: AttractionAccessibilityPage
+    },
     { path: 'parks/:id/parkaccessibility/:id', component: ParkAccessibilityPage }
 ];
 
